@@ -455,6 +455,9 @@ img {
 #contact .contact-form form #message {
   margin-bottom: 10px;
   padding: 5px 10px;
+  resize: none;
+  outline: none;
+  border: none;
 }
 
 #contact .contact-form form #submit-btn {
