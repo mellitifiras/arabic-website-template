@@ -1,0 +1,22 @@
+@import './variables';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cairo;
+}
+body{
+    line-height: 1.5;
+    background:$primary-color;
+    height: 100%;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+}
+

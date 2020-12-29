@@ -1,0 +1,14 @@
+$primary-color:#333;
+$secondary-color:#93cb52;
+
+@mixin mobile(){
+    @media (max-width:900px){
+        @content;
+    }
+};
+
+@mixin sm-mobile(){
+    @media (max-width:545px){
+        @content
+    }
+}
